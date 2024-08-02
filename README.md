@@ -1,6 +1,6 @@
 # Dashboard com PYTHON e framework STREAMLIT
 
-*Projeto realizado com base no curso - Dashboard Analítico Passo-a-Passo em STREAMLIT e PYTHON*
+*Projeto realizado com base no curso - Dashboard Analítico Passo-a-Passo em STREAMLIT e PYTHON (Udemy)* &nbsp;
 *Instrutor: Luiz Fabiano de Souza*
 
 ***
