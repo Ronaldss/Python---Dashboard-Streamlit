@@ -17,4 +17,4 @@
 
 ## Inicializando o projeto
 
-- streamlit run App.py --> Rodando no ambiente criado no Anaconda Navigator
+- streamlit run App.py --> Rodando no ambiente criado no Anaconda Navigator.
