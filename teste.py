@@ -45,7 +45,7 @@ st.write('Aqui temos uma array:  ', array)
 
 
 '''
-TRABALHANDO COM GRÁFICOS (NUMPY, ALTAIR)
+### TRABALHANDO COM GRÁFICOS (NUMPY, ALTAIR) ###
 '''
 
 df2 = pd.DataFrame(
