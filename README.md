@@ -1,5 +1,10 @@
 # Dashboard com PYTHON e framework STREAMLIT
 
+*Projeto realizado com base no curso - Dashboard Analítico Passo-a-Passo em STREAMLIT e PYTHON*
+*Instrutor: Luiz Fabiano de Souza*
+
+*** ------------------------------------------------------------------------------------------- ***
+
 ## Configuração de ambiente
 
 - Python 3.9.13 recomendada
