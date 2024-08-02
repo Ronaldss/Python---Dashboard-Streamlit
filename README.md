@@ -3,7 +3,7 @@
 *Projeto realizado com base no curso - Dashboard Analítico Passo-a-Passo em STREAMLIT e PYTHON*
 *Instrutor: Luiz Fabiano de Souza*
 
-*** ------------------------------------------------------------------------------------------- ***
+***
 
 ## Configuração de ambiente
 
