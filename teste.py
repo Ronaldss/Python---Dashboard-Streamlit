@@ -42,7 +42,16 @@ st.write("Este é um outro texto com o write do streamlit.")
 array = [1, 2, "abc", "Ronald", True]
 st.write('Aqui temos uma array:  ', array)
 
+'''
+### JSON ###
+'''
 
+meuObjeto = {
+    'banana': 'amarela',
+    'limão': 'verde',
+    'laranja': 'laranja'
+}
+st.json(meuObjeto)
 
 '''
 ### TRABALHANDO COM GRÁFICOS (NUMPY, ALTAIR) ###
