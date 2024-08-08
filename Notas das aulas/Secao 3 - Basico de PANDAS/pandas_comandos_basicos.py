@@ -28,4 +28,21 @@ df
 df.loc[df['Nome'] == 'Lucas Oliveira']
 
 # Realizando o mesmo filtro feito acima, porém, exibindo apenas a coluna CPF
-df.loc[df['Nome'] == 'Lucas Oliveira', ['CPF']]
+df.loc[df['Nome'] == 'Lucas Oliveira', ['Nome', 'CPF']]
+
+df
+
+# Agrupar os dados iguais de uma determina colunas, somando as demais colunas em função do agrupamento
+df.groupby(['Série']).sum()
+
+df
+
+# Recriando as colunas de notas que haviam sido dropadas acima, porém, replicando os mesmos valores para a determinada coluna
+df = df.assign(Nota1=9, Nota2=10, Nota3=8)
+df
+
+# Alterando valores nas colunas Notas
+df['Nota1'] = [2, 5, 4, 10, 5, 8, 1, 9, 0, 2]
+df['Nota2'] = [9, 10, 8, 0, 10, 6, 2, 3, 4, 5]
+df['Nota3'] = [6, 3, 7, 1, 8, 3, 10, 4, 6, 5]
+df
