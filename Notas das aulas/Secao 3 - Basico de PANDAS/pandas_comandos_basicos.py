@@ -46,3 +46,12 @@ df['Nota1'] = [2, 5, 4, 10, 5, 8, 1, 9, 0, 2]
 df['Nota2'] = [9, 10, 8, 0, 10, 6, 2, 3, 4, 5]
 df['Nota3'] = [6, 3, 7, 1, 8, 3, 10, 4, 6, 5]
 df
+
+
+df_alterado = df.loc[df['Nome'] == 'Ronald Santos', ['Nome', 'Nota1', 'Nota2', 'Nota3']]
+print("MEDIA DO ALUNO") 
+print("Aluno Ronald, ocorre em duas linhas na tabela Excel, então foi agrupado pelo nome e retiramos a média de cada nota (Nota1, Nota2, Nota3)")
+df_alterado.groupby(['Nome']).mean()
+
+
+
