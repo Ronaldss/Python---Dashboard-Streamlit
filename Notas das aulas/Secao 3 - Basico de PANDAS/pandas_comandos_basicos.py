@@ -54,4 +54,5 @@ print("Aluno Ronald, ocorre em duas linhas na tabela Excel, então foi agrupado 
 df_alterado.groupby(['Nome']).mean()
 
 
-
+# Quantidade de linhas no Excel
+len(df)
