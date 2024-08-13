@@ -56,3 +56,8 @@ df_alterado.groupby(['Nome']).mean()
 
 # Quantidade de linhas no Excel
 len(df)
+
+# Criando nova coluna e somando todas as notas
+df['Soma_Notas'] = df['Nota1'] + df['Nota2'] + df['Nota3']
+df
+
