@@ -61,3 +61,5 @@ len(df)
 df['Soma_Notas'] = df['Nota1'] + df['Nota2'] + df['Nota3']
 df
 
+# Imprimir nome dos alunos com 'Soma_Notas' maior que 24 e imprimir uma string 'Desistente' no aluno com nota inferior a 24.
+df['Nome'].where(df['Soma_Notas'] > 24, 'Desistente')
