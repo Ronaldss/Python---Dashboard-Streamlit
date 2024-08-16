@@ -63,3 +63,21 @@ df
 
 # Imprimir nome dos alunos com 'Soma_Notas' maior que 24 e imprimir uma string 'Desistente' no aluno com nota inferior a 24.
 df['Nome'].where(df['Soma_Notas'] > 24, 'Desistente')
+
+# ---------------------------------------------------------------------
+# Como na tabela o nomo do aluno repete-se mais de uma vez nas linas
+# Retornar em um array todos os nomes sem repeti-los  
+df['Nome'].unique()
+
+# Como na tabela o nomo do aluno repete-se mais de uma vez nas linas
+# Retornar em um array todos os nomes sem repeti-los
+# Porem, aqui retorna apenas o valor numérico (n-unique())
+df['Nome'].nunique()
+# ---------------------------------------------------------------------
+
+
+# Verificando os nomes repetidos e dropando, deixando apenas o primeiro
+df = df.drop_duplicates(subset=['Nome'])
+df
+
+
